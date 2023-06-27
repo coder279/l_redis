@@ -21,4 +21,7 @@
     <code>expire seckkill 20000</code> <br>
     <code>ttl seckkill #查看key还有多久过期</code> <br>
     <code>expire seckkill #查看key过期时间</code> <br>
+- Hash数据类型
+  - hash缺点：zaplist与hashtable进行切换，hashtable消耗更多的内存
+  - 可以使用Redis作为实时数据
   
